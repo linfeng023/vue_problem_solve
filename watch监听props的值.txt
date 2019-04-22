@@ -1,0 +1,18 @@
+问题:父组件中通过异步的方式传递参数给子组件的props,子组件怎么去获取传递过来的值?
+
+解决:在子组件中通过watch去监听props中的参数变化
+
+
+formdate:是props中的参数,用watch去监听formdate的变化 ,formdate是从父组件中传递过来的
+
+'formdate':{  
+	handler(newValue,oldVlaue){
+		if(newValue.length > 0){
+			console.log(newValue[0])
+		}
+	}
+},
+
+
+
+更多方法:https://www.jb51.net/article/117447.htm
