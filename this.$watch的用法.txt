@@ -1,0 +1,8 @@
+this.$watch("需监听的变量",callback(){})
+
+	
+this.$watch("user",function(newValue,oldValue){
+	
+	//回调函数执行的方法
+
+})
