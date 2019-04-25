@@ -1,0 +1,14 @@
+1.安装node.js
+
+2.安装npm 或 cnpm
+
+3.全局安装vue-cli
+
+npm install -g vue-cli   /   cnpm i -g vue-cli
+
+4.vue init webpack projectName
+
+5. cd projectName
+
+6.npm run dev
+ 
